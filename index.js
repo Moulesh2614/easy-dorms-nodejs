@@ -22,7 +22,7 @@ const server = http.createServer((req,res)=>{
     else if(req.url ==='/api'){
             fs.readFile(path.join(__dirname,'dormsCollection.json'),'utf-8',(err, content)=>{
                 if (err) throw err;
-                res.writeHead(200, {'Content-Type':'application/json'});
+                res.writeHead(200, {'Content-Type':'application/json', 'Access-Control-Allow-Origin': '*'});
                 res.end(content);
             })
     }
