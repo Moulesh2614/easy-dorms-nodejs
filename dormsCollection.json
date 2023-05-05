@@ -1,0 +1,76 @@
+{"doorms": [{
+  "id": 1,
+  "area": "Savin Avenue",
+  "vacancy": 1,
+  "lease_required": false,
+  "lease_details": "",
+  "rent_amount": {
+    "$numberDecimal": "367.00"
+  },
+  "deposit_amount": {
+    "$numberDecimal": "367.00"
+  },
+  "available_from": {
+    "$date": "2023-05-20T04:00:00.000Z"
+  }
+},{
+  "id": 2,
+  "area": "Bull Hill",
+  "vacancy": 2,
+  "lease_required": true,
+  "lease_details": "12 Months",
+  "rent_amount": {
+    "$numberDecimal": "300.00"
+  },
+  "deposit_amount": {
+    "$numberDecimal": "300.00"
+  },
+  "available_from": {
+    "$date": "2023-06-01T04:00:00.000Z"
+  }
+},{
+  "id": 3,
+  "area": "Savin Rock",
+  "vacancy": 2,
+  "lease_required": false,
+  "lease_details": "",
+  "rent_amount": {
+    "$numberDecimal": "300.00"
+  },
+  "deposit_amount": {
+    "$numberDecimal": "300.00"
+  },
+  "available_from": {
+    "$date": "2023-06-01T04:00:00.000Z"
+  }
+},{
+  "id": 4,
+  "area": "1173 Campbell Avenue",
+  "vacancy": 1,
+  "lease_required": true,
+  "lease_details": "12 months",
+  "rent_amount": {
+    "$numberDecimal": "415.00"
+  },
+  "deposit_amount": {
+    "$numberDecimal": "300.00"
+  },
+  "available_from": {
+    "$date": "2023-06-01T04:00:00.000Z"
+  }
+},{
+  "id": 5,
+  "area": "108 Campbell Avenue",
+  "vacancy": 1,
+  "lease_required": false,
+  "lease_details": "",
+  "rent_amount": {
+    "$numberDecimal": "285.00"
+  },
+  "deposit_amount": {
+    "$numberDecimal": "285.00"
+  },
+  "available_from": {
+    "$date": "2023-07-01T04:00:00.000Z"
+  }
+}]}
